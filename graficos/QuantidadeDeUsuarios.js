@@ -11,7 +11,7 @@ async function QuantidadeDeUsuarios(){
         x:nomeDasRedes,
         y:QuantidadeDeUsuarios,
         type:'bar',
-        marker:{color: getcss (--cor-primaria)}
+        marker:{color: getcss ('--cor-primaria')}
     }]
     const grafico = document.createElement('div');
     grafico.className = 'grafico';
